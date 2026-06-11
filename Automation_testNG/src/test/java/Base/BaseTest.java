@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
@@ -19,7 +20,7 @@ public class BaseTest {
     @BeforeTest(alwaysRun = true)
     public void setup() {
   
-        driver = new EdgeDriver();
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://testautomationpractice.blogspot.com/");
         wait = new WebDriverWait(driver, Duration.ofSeconds(5));
