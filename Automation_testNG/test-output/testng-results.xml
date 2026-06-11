@@ -1,28 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="9" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-10T11:38:44 IST" name="Default suite" finished-at="2026-06-10T11:38:53 IST" duration-ms="8481">
+  <suite started-at="2026-06-11T10:03:42 IST" name="Automation Suite" finished-at="2026-06-11T10:04:41 IST" duration-ms="58909">
     <groups>
       <group name="Smoke">
-        <method signature="AutomationPracticeTest.Tabs()[pri:5, instance:Tests.AutomationPracticeTest@233795b6]" name="Tabs" class="Tests.AutomationPracticeTest"/>
+        <method signature="AutomationPracticeTest.Select_field(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.AutomationPracticeTest@6f03482]" name="Select_field" class="Tests.AutomationPracticeTest"/>
+        <method signature="AutomationPracticeTest.Date_picker()[pri:2, instance:Tests.AutomationPracticeTest@6f03482]" name="Date_picker" class="Tests.AutomationPracticeTest"/>
+        <method signature="AutomationPracticeTest.Upload_files()[pri:3, instance:Tests.AutomationPracticeTest@6f03482]" name="Upload_files" class="Tests.AutomationPracticeTest"/>
+        <method signature="AutomationPracticeTest.alerts()[pri:4, instance:Tests.AutomationPracticeTest@6f03482]" name="alerts" class="Tests.AutomationPracticeTest"/>
+        <method signature="AutomationPracticeTest.Tabs()[pri:5, instance:Tests.AutomationPracticeTest@6f03482]" name="Tabs" class="Tests.AutomationPracticeTest"/>
+        <method signature="AutomationPracticeTest.Actions()[pri:6, instance:Tests.AutomationPracticeTest@6f03482]" name="Actions" class="Tests.AutomationPracticeTest"/>
+        <method signature="AutomationPracticeTest.Form()[pri:7, instance:Tests.AutomationPracticeTest@6f03482]" name="Form" class="Tests.AutomationPracticeTest"/>
+        <method signature="AutomationPracticeTest.Pop_up()[pri:8, instance:Tests.AutomationPracticeTest@6f03482]" name="Pop_up" class="Tests.AutomationPracticeTest"/>
+        <method signature="AutomationPracticeTest.Links()[pri:9, instance:Tests.AutomationPracticeTest@6f03482]" name="Links" class="Tests.AutomationPracticeTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2026-06-10T11:38:44 IST" name="Default test" finished-at="2026-06-10T11:38:53 IST" duration-ms="8481">
+    <test started-at="2026-06-11T10:03:42 IST" name="Smoke Tests" finished-at="2026-06-11T10:04:41 IST" duration-ms="58909">
       <class name="Tests.AutomationPracticeTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.AutomationPracticeTest@233795b6]" started-at="2026-06-10T11:38:44 IST" name="setup" finished-at="2026-06-10T11:38:50 IST" duration-ms="5288" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:03:42 IST" name="setup" finished-at="2026-06-11T10:03:48 IST" duration-ms="5826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Tabs()[pri:5, instance:Tests.AutomationPracticeTest@233795b6]" started-at="2026-06-10T11:38:50 IST" name="Tabs" finished-at="2026-06-10T11:38:53 IST" duration-ms="3157" status="PASS">
+        <test-method signature="Select_field(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:03:49 IST" name="Select_field" data-provider="userData" finished-at="2026-06-11T10:03:53 IST" duration-ms="3887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ayan Mal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ayan@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Howrah, West Bengal, India]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_field -->
+        <test-method signature="Select_field(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:03:53 IST" name="Select_field" data-provider="userData" finished-at="2026-06-11T10:03:57 IST" duration-ms="3738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kunal Das]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kunal@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Wadipur, West Bengal, India]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_field -->
+        <test-method signature="Select_field(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:03:57 IST" name="Select_field" data-provider="userData" finished-at="2026-06-11T10:04:01 IST" duration-ms="3758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Debadrita Pal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pal@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7894561230]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kumorpara, West Bengal, India]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_field -->
+        <test-method signature="Date_picker()[pri:2, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:04:01 IST" name="Date_picker" finished-at="2026-06-11T10:04:01 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Date_picker -->
+        <test-method signature="Upload_files()[pri:3, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:04:01 IST" name="Upload_files" finished-at="2026-06-11T10:04:01 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Upload_files -->
+        <test-method signature="alerts()[pri:4, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:04:01 IST" name="alerts" finished-at="2026-06-11T10:04:02 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alerts -->
+        <test-method signature="Tabs()[pri:5, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:04:02 IST" name="Tabs" finished-at="2026-06-11T10:04:02 IST" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tabs -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AutomationPracticeTest@233795b6]" started-at="2026-06-10T11:38:53 IST" name="tearDown" finished-at="2026-06-10T11:38:53 IST" duration-ms="0" status="PASS">
+        <test-method signature="Actions()[pri:6, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:04:02 IST" name="Actions" finished-at="2026-06-11T10:04:03 IST" duration-ms="1385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Actions -->
+        <test-method signature="Form()[pri:7, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:04:03 IST" name="Form" finished-at="2026-06-11T10:04:04 IST" duration-ms="578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Form -->
+        <test-method signature="Pop_up()[pri:8, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:04:04 IST" name="Pop_up" finished-at="2026-06-11T10:04:15 IST" duration-ms="11657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pop_up -->
+        <test-method signature="Links()[pri:9, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:04:15 IST" name="Links" finished-at="2026-06-11T10:04:41 IST" duration-ms="25332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Links -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:04:41 IST" name="tearDown" finished-at="2026-06-11T10:04:41 IST" duration-ms="443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Tests.AutomationPracticeTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Smoke Tests -->
+  </suite> <!-- Automation Suite -->
 </testng-results>

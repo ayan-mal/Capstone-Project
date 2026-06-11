@@ -1,0 +1,62 @@
+pipeline {
+    agent any
+
+    tools {
+        maven 'Maven3'
+        jdk 'jdk'
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main',
+                    url: 'https://github.com/ayan-mal/Capstone-Project.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                dir('Automation_testNG') {
+                    bat 'mvn clean'
+                }
+            }
+        }
+
+        stage('Compile') {
+            steps {
+                dir('Automation_testNG') {
+                    bat 'mvn compile'
+                }
+            }
+        }
+
+        stage('Test') {
+            steps {
+                dir('Automation_testNG') {
+                    bat 'mvn test'
+                }
+            }
+        }
+
+        stage('Package') {
+            steps {
+                dir('Automation_testNG') {
+                    bat 'mvn package'
+                }
+            }
+        }
+       
+    }
+
+    post {
+        always {
+            junit '*/target/surefire-reports/*.xml'
+        }
+        success {
+            echo 'Build Successful'
+        }
+        failure {
+            echo 'Build Failed'
+        }
+    }
+}
