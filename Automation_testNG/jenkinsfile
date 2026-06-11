@@ -47,7 +47,7 @@ pipeline {
         }
            stage('Docker Build') {
             steps {
-                dir('First_test') {
+                dir('Automation_testNG') {
                     bat 'docker build -t testng-framework .'
                 }
             }
@@ -55,7 +55,7 @@ pipeline {
 
         stage('Docker Run') {
             steps {
-                dir('First_test') {
+                dir('Automation_testNG') {
                     bat 'docker run --rm testng-framework'
                 }
             }
