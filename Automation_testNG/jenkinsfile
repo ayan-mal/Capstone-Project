@@ -56,7 +56,7 @@ pipeline {
         stage('Docker Run') {
             steps {
                 dir('Automation_testNG') {
-                    bat 'mvn test'
+                    bat 'docker run --rm testng-framework'
                 }
             }
         }
