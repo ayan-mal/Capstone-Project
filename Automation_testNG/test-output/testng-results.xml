@@ -2,27 +2,27 @@
 <testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-11T10:03:42 IST" name="Automation Suite" finished-at="2026-06-11T10:04:41 IST" duration-ms="58909">
+  <suite started-at="2026-06-11T10:31:08 IST" name="Automation Suite" finished-at="2026-06-11T10:32:13 IST" duration-ms="65185">
     <groups>
       <group name="Smoke">
-        <method signature="AutomationPracticeTest.Select_field(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.AutomationPracticeTest@6f03482]" name="Select_field" class="Tests.AutomationPracticeTest"/>
-        <method signature="AutomationPracticeTest.Date_picker()[pri:2, instance:Tests.AutomationPracticeTest@6f03482]" name="Date_picker" class="Tests.AutomationPracticeTest"/>
-        <method signature="AutomationPracticeTest.Upload_files()[pri:3, instance:Tests.AutomationPracticeTest@6f03482]" name="Upload_files" class="Tests.AutomationPracticeTest"/>
-        <method signature="AutomationPracticeTest.alerts()[pri:4, instance:Tests.AutomationPracticeTest@6f03482]" name="alerts" class="Tests.AutomationPracticeTest"/>
-        <method signature="AutomationPracticeTest.Tabs()[pri:5, instance:Tests.AutomationPracticeTest@6f03482]" name="Tabs" class="Tests.AutomationPracticeTest"/>
-        <method signature="AutomationPracticeTest.Actions()[pri:6, instance:Tests.AutomationPracticeTest@6f03482]" name="Actions" class="Tests.AutomationPracticeTest"/>
-        <method signature="AutomationPracticeTest.Form()[pri:7, instance:Tests.AutomationPracticeTest@6f03482]" name="Form" class="Tests.AutomationPracticeTest"/>
-        <method signature="AutomationPracticeTest.Pop_up()[pri:8, instance:Tests.AutomationPracticeTest@6f03482]" name="Pop_up" class="Tests.AutomationPracticeTest"/>
-        <method signature="AutomationPracticeTest.Links()[pri:9, instance:Tests.AutomationPracticeTest@6f03482]" name="Links" class="Tests.AutomationPracticeTest"/>
+        <method signature="AutomationPracticeTest.Select_field(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.AutomationPracticeTest@179ece50]" name="Select_field" class="Tests.AutomationPracticeTest"/>
+        <method signature="AutomationPracticeTest.Date_picker()[pri:2, instance:Tests.AutomationPracticeTest@179ece50]" name="Date_picker" class="Tests.AutomationPracticeTest"/>
+        <method signature="AutomationPracticeTest.Upload_files()[pri:3, instance:Tests.AutomationPracticeTest@179ece50]" name="Upload_files" class="Tests.AutomationPracticeTest"/>
+        <method signature="AutomationPracticeTest.alerts()[pri:4, instance:Tests.AutomationPracticeTest@179ece50]" name="alerts" class="Tests.AutomationPracticeTest"/>
+        <method signature="AutomationPracticeTest.Tabs()[pri:5, instance:Tests.AutomationPracticeTest@179ece50]" name="Tabs" class="Tests.AutomationPracticeTest"/>
+        <method signature="AutomationPracticeTest.Actions()[pri:6, instance:Tests.AutomationPracticeTest@179ece50]" name="Actions" class="Tests.AutomationPracticeTest"/>
+        <method signature="AutomationPracticeTest.Form()[pri:7, instance:Tests.AutomationPracticeTest@179ece50]" name="Form" class="Tests.AutomationPracticeTest"/>
+        <method signature="AutomationPracticeTest.Pop_up()[pri:8, instance:Tests.AutomationPracticeTest@179ece50]" name="Pop_up" class="Tests.AutomationPracticeTest"/>
+        <method signature="AutomationPracticeTest.Links()[pri:9, instance:Tests.AutomationPracticeTest@179ece50]" name="Links" class="Tests.AutomationPracticeTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2026-06-11T10:03:42 IST" name="Smoke Tests" finished-at="2026-06-11T10:04:41 IST" duration-ms="58909">
+    <test started-at="2026-06-11T10:31:08 IST" name="Smoke Tests" finished-at="2026-06-11T10:32:13 IST" duration-ms="65185">
       <class name="Tests.AutomationPracticeTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:03:42 IST" name="setup" finished-at="2026-06-11T10:03:48 IST" duration-ms="5826" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.AutomationPracticeTest@179ece50]" started-at="2026-06-11T10:31:08 IST" name="setup" finished-at="2026-06-11T10:31:13 IST" duration-ms="5182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Select_field(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:03:49 IST" name="Select_field" data-provider="userData" finished-at="2026-06-11T10:03:53 IST" duration-ms="3887" status="PASS">
+        <test-method signature="Select_field(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.AutomationPracticeTest@179ece50]" started-at="2026-06-11T10:31:14 IST" name="Select_field" data-provider="userData" finished-at="2026-06-11T10:31:18 IST" duration-ms="3768" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Select_field -->
-        <test-method signature="Select_field(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:03:53 IST" name="Select_field" data-provider="userData" finished-at="2026-06-11T10:03:57 IST" duration-ms="3738" status="PASS">
+        <test-method signature="Select_field(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.AutomationPracticeTest@179ece50]" started-at="2026-06-11T10:31:18 IST" name="Select_field" data-provider="userData" finished-at="2026-06-11T10:31:22 IST" duration-ms="3842" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,7 +84,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Select_field -->
-        <test-method signature="Select_field(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:03:57 IST" name="Select_field" data-provider="userData" finished-at="2026-06-11T10:04:01 IST" duration-ms="3758" status="PASS">
+        <test-method signature="Select_field(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.AutomationPracticeTest@179ece50]" started-at="2026-06-11T10:31:22 IST" name="Select_field" data-provider="userData" finished-at="2026-06-11T10:31:26 IST" duration-ms="3871" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,39 +115,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Select_field -->
-        <test-method signature="Date_picker()[pri:2, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:04:01 IST" name="Date_picker" finished-at="2026-06-11T10:04:01 IST" duration-ms="417" status="PASS">
+        <test-method signature="Date_picker()[pri:2, instance:Tests.AutomationPracticeTest@179ece50]" started-at="2026-06-11T10:31:26 IST" name="Date_picker" finished-at="2026-06-11T10:31:26 IST" duration-ms="559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Date_picker -->
-        <test-method signature="Upload_files()[pri:3, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:04:01 IST" name="Upload_files" finished-at="2026-06-11T10:04:01 IST" duration-ms="110" status="PASS">
+        <test-method signature="Upload_files()[pri:3, instance:Tests.AutomationPracticeTest@179ece50]" started-at="2026-06-11T10:31:26 IST" name="Upload_files" finished-at="2026-06-11T10:31:26 IST" duration-ms="91" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Upload_files -->
-        <test-method signature="alerts()[pri:4, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:04:01 IST" name="alerts" finished-at="2026-06-11T10:04:02 IST" duration-ms="279" status="PASS">
+        <test-method signature="alerts()[pri:4, instance:Tests.AutomationPracticeTest@179ece50]" started-at="2026-06-11T10:31:26 IST" name="alerts" finished-at="2026-06-11T10:31:26 IST" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alerts -->
-        <test-method signature="Tabs()[pri:5, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:04:02 IST" name="Tabs" finished-at="2026-06-11T10:04:02 IST" duration-ms="143" status="PASS">
+        <test-method signature="Tabs()[pri:5, instance:Tests.AutomationPracticeTest@179ece50]" started-at="2026-06-11T10:31:26 IST" name="Tabs" finished-at="2026-06-11T10:31:27 IST" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tabs -->
-        <test-method signature="Actions()[pri:6, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:04:02 IST" name="Actions" finished-at="2026-06-11T10:04:03 IST" duration-ms="1385" status="PASS">
+        <test-method signature="Actions()[pri:6, instance:Tests.AutomationPracticeTest@179ece50]" started-at="2026-06-11T10:31:27 IST" name="Actions" finished-at="2026-06-11T10:31:36 IST" duration-ms="9706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Actions -->
-        <test-method signature="Form()[pri:7, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:04:03 IST" name="Form" finished-at="2026-06-11T10:04:04 IST" duration-ms="578" status="PASS">
+        <test-method signature="Form()[pri:7, instance:Tests.AutomationPracticeTest@179ece50]" started-at="2026-06-11T10:31:36 IST" name="Form" finished-at="2026-06-11T10:31:37 IST" duration-ms="455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Form -->
-        <test-method signature="Pop_up()[pri:8, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:04:04 IST" name="Pop_up" finished-at="2026-06-11T10:04:15 IST" duration-ms="11657" status="PASS">
+        <test-method signature="Pop_up()[pri:8, instance:Tests.AutomationPracticeTest@179ece50]" started-at="2026-06-11T10:31:37 IST" name="Pop_up" finished-at="2026-06-11T10:31:49 IST" duration-ms="11694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Pop_up -->
-        <test-method signature="Links()[pri:9, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:04:15 IST" name="Links" finished-at="2026-06-11T10:04:41 IST" duration-ms="25332" status="PASS">
+        <test-method signature="Links()[pri:9, instance:Tests.AutomationPracticeTest@179ece50]" started-at="2026-06-11T10:31:49 IST" name="Links" finished-at="2026-06-11T10:32:12 IST" duration-ms="23907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Links -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AutomationPracticeTest@6f03482]" started-at="2026-06-11T10:04:41 IST" name="tearDown" finished-at="2026-06-11T10:04:41 IST" duration-ms="443" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AutomationPracticeTest@179ece50]" started-at="2026-06-11T10:32:12 IST" name="tearDown" finished-at="2026-06-11T10:32:13 IST" duration-ms="346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
