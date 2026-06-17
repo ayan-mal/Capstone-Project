@@ -30,6 +30,7 @@ This project automates the GUI Elements page of the Test Automation Practice web
 
 ## Project Structure
 
+```text
 Automation_testNG
 │
 ├── src/main/java
@@ -37,12 +38,16 @@ Automation_testNG
 ├── src/test/java
 │   ├── Base
 │   │   └── BaseTest.java
+│   │
 │   ├── Listeners
 │   │   └── TestListener.java
+│   │
 │   ├── Pages
 │   │   └── AutomationPracticePage.java
+│   │
 │   ├── Tests
 │   │   └── AutomationPracticeTest.java
+│   │
 │   └── Utilities
 │       └── ExcelUtils.java
 │
@@ -52,7 +57,8 @@ Automation_testNG
 ├── pom.xml
 ├── testng.xml
 ├── Dockerfile
-├── jenkinsfile
+└── jenkinsfile
+```
 
 ## How To Run
 
